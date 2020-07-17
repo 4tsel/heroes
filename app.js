@@ -8,7 +8,6 @@ const rutasMain = require(`./routes/main.js`)
 const rutasHeroes = require(`./routes/heroes.js`)
 
 app.use('/', rutasMain);
-app.use(`/creditos`, rutasMain);
 app.use('/heroes', rutasHeroes);
 
 
