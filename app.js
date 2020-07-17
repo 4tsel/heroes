@@ -9,6 +9,3 @@ const rutasHeroes = require(`./routes/heroes.js`)
 
 app.use('/', rutasMain);
 app.use('/heroes', rutasHeroes);
-
-
-
